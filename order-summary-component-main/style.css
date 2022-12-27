@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=DM+Sans:wght@400;700&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Lexend+Deca:wght@500&family=Montserrat:wght@500;700&family=Oswald:wght@500&family=Outfit:wght@300;400;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300&family=Red+Hat+Display:wght@500;700;900&family=Rubik:ital,wght@1,500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Pale-blue: hsl(225, 100%, 94%);  /* card-bg */
+    --Bright-blue: hsl(245, 75%, 52%);   /* button */
+    --Very-pale-blue: hsl(225, 100%, 98%);  /* Annual plan */
+    --Desaturated-blue: hsl(224, 23%, 55%);  /* bg */
+    --Dark-blue: hsl(223, 47%, 23%);  /* shadow */
+    --font-family:'Red Hat Display', sans-serif;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    background-color: var(--Pale-blue);
+    font-family: var(--font-family);
+}
+
+.card{
+    width: 26rem;
+    min-height: 100vh;
+    background-color: white;
+    position: relative;
+    margin:auto;
+    margin-top:4rem;
+    margin-bottom: 5rem;
+    border-radius: 20px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+
+.music-icon{
+    width: 45px;
+    height: 45px;
+}
+
+.padding{
+    padding: 2rem;
+}
+
+#first-h-two{
+    padding-bottom: .6rem ;
+}
+
+.upper-section{
+    line-height: 1.5;
+    text-align: center;
+}
+
+#first-paragh{
+    color:var(--Desaturated-blue);
+}
+
+.middle-section{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 3.3rem;
+  margin: .3rem;
+  position: relative;
+  top:4rem;
+  background-color: var(--Very-pale-blue);
+  border-radius: 15px;
+  height: 5rem;
+  width: 100%;
+  margin: auto;
+}
+
+.middle-section .music-icon{
+    position: relative;
+    left:2rem;
+    width: 3rem;
+}
+
+.middle-section .change{
+    position: relative;
+    right: 1rem;
+}
+
+.bottom-section{
+    text-align: center;
+    position: relative;
+    top: 8rem;
+}
+
+#button{
+    width: 100%;
+    height: 3.3rem;
+    border: none;
+    color:white;
+    background-color: var(--Bright-blue);
+    border-radius: 15px;
+    box-shadow: -2px 34px 43px -8px rgba(22, 86, 212, 0.3);
+    font-size: 17px;
+}
+
+#third-paragh{
+    position: relative;
+    top:2.5rem;
+    color: var(--Desaturated-blue);
+    font-weight: 800;
+}
+
+
+

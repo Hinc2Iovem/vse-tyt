@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <header>
+      
+      <img src="/images/logo.svg" id="logo" alt="snap">
+  
+    <nav>
+      <img id="icon-menu" src="/images/icon-menu.svg" alt="">
+      <img src="/images/icon-close-menu.svg" alt="" id="icon-close">
+  <div class="nav-display-none flex">
+      <div class="nav-left-part">
+      <ul class="flex">
+
+        <div class="with-sub-items">
+        <li><a class="anch features" href="#Features">Features <img src="/images/icon-arrow-down.svg" alt=""></a></li>
+         <div class="to-hide-sub-items first-hidden">
+          <ul class="sub-items">
+            <li><img src="/images/icon-todo.svg" alt=""><a class="hidden-nav-items" href="#">Todo list</a></li>
+            <li><img src="/images/icon-calendar.svg" alt=""><a class="hidden-nav-items" href="">Calendar</a></img></li>
+            <li><img src="/images/icon-reminders.svg" alt=""><a class="hidden-nav-items" href="">Reminders</a></img></li>
+            <li><img src="images/icon-planning.svg" alt=""><a class="hidden-nav-items" href="">Planning</a></img></li>
+          </ul>
+         </div>
+      </div>
+
+        <div class="with-sub-items">
+        <li><a class="anch company" href="#Company">Company <img src="/images/icon-arrow-down.svg" alt=""></a></li>
+        <div class="to-hide-sub-items second-hidden">
+          <ul class="sub-items">
+            <li><a class="hidden-nav-items" href="">History</a></li>
+            <li><a class="hidden-nav-items" href="">Our Team</a></li>
+            <li><a class="hidden-nav-items" href="">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+        <li><a class="anch" href="#Careers">Careers</a></li>
+        <li><a class="anch" href="#About">About</a></li>
+      </ul>
+    </div>
+    <div class="right-part">
+      <ul class="flex">
+        <li><a class="anch" href="#Login">Login</a></li>
+        <li><a class="anch register" href="#Register">Register</a></li>
+      </ul>
+    </div>
+  </div>
+    </nav>
+  </header>
+  <body>
+ 
+    <section class="middle-section">
+    
+      <div class="left-middle">
+       <h1 class="middle-sc-h1 hide-h1">Make <br> remote work</h1>
+       <h1 class="show-on-sm-scrn">Make remote work</h1>
+   <p class="middle-sc-p"> Get your team in sync, no matter your location. Streamline processes, 
+    create team rituals, and watch productivity soar.</p>
+    <button class="btn">Learn more</button>
+
+  <div class="bottom-section">
+    <img src="/images/client-databiz.svg" class="bottom-icons" id="databiz" alt="">
+    <img src="/images/client-audiophile.svg" class="bottom-icons"  id="audiophile" alt="">
+    <img src="/images/client-meet.svg" class="bottom-icons"  id="meet" alt="">
+    <img src="/images/client-maker.svg" class="bottom-icons"  id="maker" alt="">
+   </div>
+
+  </div>
+
+  <div class="right-middle">
+    <img id="hero-img" src="/images/image-hero-desktop.png" alt="">
+    <img id="hero-img-mobile" src="/images/image-hero-mobile.png" alt="">
+  </div>
+</section>
+ 
+
+</body>
+
+<footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</footer>
+</html>
